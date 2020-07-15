@@ -134,7 +134,7 @@
     @include border-bottom-radius(0);
   }
 
-  > .btn:not(:first-child),
+  > .btn:not(:first-of-type),
   > .btn-group:not(:first-child) > .btn {
     @include border-top-radius(0);
   }
